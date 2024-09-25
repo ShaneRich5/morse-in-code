@@ -3,7 +3,12 @@ import { useState } from 'react'
 const App = () => {
   return (
     <>
-      Test
+      <div>
+        Input
+      </div>
+      <div>
+        Output
+      </div>
     </>
   )
 }
