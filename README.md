@@ -48,3 +48,49 @@ export default tseslint.config({
   },
 })
 ```
+
+## Morse-In-Code
+
+### Application Overview
+- **Name**: Morse Code Converter
+- **Primary Platform**: Web
+
+### Introduction
+- **Purpose**: To convert typed messages to Morse code and vice versa.
+- **Scope**: Web application using Vite, TailwindCSS, and GitHub Pages for deployment.
+
+### System Architecture
+- **Frontend**: Vite, TailwindCSS
+- **Backend**: None (client-side only)
+- **Deployment**: GitHub Pages
+
+### Core Functionalities
+- **Text to Morse Code Conversion**
+- **Morse Code to Text Conversion**
+- **Save Converted Messages**
+- **Share Converted Messages**
+
+### User Interface Design
+- **Text Input and Output Fields**
+- **Real-time Conversion Display**
+- **Accessibility Features**
+
+### Data Design
+- **Data Storage**: Local Storage for saved messages
+
+### Security Considerations
+- **Data Privacy**: Ensure local storage is secure
+
+### Performance Metrics
+- **Real-time Conversion Speed**
+- **Responsive UI**
+
+### Testing Strategy
+- **Unit Testing**: For conversion functions
+
+### Deployment Plan
+- **CI/CD**: Automated deployment to GitHub Pages
+
+### Maintenance and Support
+- **Updates**: Regular updates and bug fixes
+- **Support**: Documentation and user support channels
