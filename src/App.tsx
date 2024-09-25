@@ -1,16 +1,17 @@
-import { useState } from 'react'
+import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
 
 const App = () => {
   return (
-    <>
-      <div>
-        Input
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 my-8">
+      <div className="mx-auto max-w-3xl">
+        <div className="grid w-full gap-2">
+          <Textarea placeholder="Type your message here." />
+          <Button>Send message</Button>
+        </div>
       </div>
-      <div>
-        Output
-      </div>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default App
+export default App;
